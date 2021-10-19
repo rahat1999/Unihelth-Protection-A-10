@@ -27,7 +27,8 @@ const Login = () => {
         }
     }
     // come from useAuth and Firebase
-    const handlelogin = () => {
+    const handlelogin = (e) => {
+        e.preventDefault()
         processLogin(email, password)
     }
 
@@ -42,7 +43,7 @@ const Login = () => {
                         className="g-1 p-2 rounded ">
                         <Col>
                             <h2 className=" text-center text-primary">Login Form</h2>
-                            <form onSubmit={handlelogin()} method="post">
+                            <form onSubmit={handlelogin} method="post">
                                 <div className="container">
                                     <label htmlFor="uname"><b>User Email</b></label>
                                     <input type="text" onBlur={handaleUserEmail} placeholder="Enter Username" name="uname" required />
