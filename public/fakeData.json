@@ -1,0 +1,125 @@
+{
+    "services": [
+        {
+            "id": 11,
+            "img": "https://i.ibb.co/cJyj6Nt/portrait-young-man-using-asthma-inhaler-against-grey-background.png",
+            "serviceName": "Allergy (Asthma)",
+            "details1": "Care for those with allergies, asthma and immunodeficiency. We strive to control your symptoms and improve your quality of life.",
+            "details2": "Care for those with allergies, asthma and immunodeficiency. We strive to control your symptoms and improve your quality of life."
+        },
+        {
+            "id": 22,
+            "img": "https://i.ibb.co/D9ZL5Df/20960.png",
+            "serviceName": "Breast Cancer Care",
+            "details1": "Evaluation, treatment and follow-up for breast cancer care, including annual mammograms for women over age 40.Range of technologies and pathologies.",
+            "details2": "Evaluation, treatment and follow-up for breast cancer care, including annual mammograms for women over age 40.Range of technologies and pathologies."
+        },
+        {
+            "id": 33,
+            "img": "https://i.ibb.co/zVDHh3C/doctor-helping-patient-with-fractured-leg.png",
+            "serviceName": "Bones (Orthopedics)",
+            "details1": "Care for individuals with issues related to muscles, bones and joints from the simplest to the most complex orthopedic conditions.",
+            "details2": "Care for individuals with issues related to muscles, bones and joints from the simplest to the most complex orthopedic conditions."
+        },
+        {
+            "id": 44,
+            "img": "https://i.ibb.co/PxCVHf3/5806072-ai.png",
+            "serviceName": "Mental health",
+            "details1": "We provide a range of specialised mental health services for people of all ages in our communityThe five main warning signs of mental illness are as follows:Excessive paranoia, worry, or anxiety.Long-lasting sadness or irritability.Extreme changes in moods.Social withdrawal.",
+            "details2": "We provide a range of specialised mental health services for people of all ages in our communityThe five main warning signs of mental illness are as follows:Excessive paranoia, worry, or anxiety.Long-lasting sadness or irritability.Extreme changes in moods.Social withdrawal."
+        },
+        {
+            "id": 55,
+            "img": "https://i.ibb.co/PcHhGsS/nurse-measuring-patient-blood-pressure.png",
+            "serviceName": "Diagnosis & investigation",
+            "details1": "Diagnosing medical issues early is crucial. Whatever your condition, we can diagnose it using a range of technologies and pathologies.",
+            "details2": "Diagnosing medical issues early is crucial. Whatever your condition, we can diagnose it using a range of technologies and pathologies."
+        },
+        {
+            "id": 66,
+            "img": "https://i.ibb.co/H71tpfq/26184.png",
+            "serviceName": "Cardiology (Heart)",
+            "details1": "Show your heart some love with personalized care that meets your exact needs. Mayo Clinic Health System is here to help you and your family prevent heart-based complications and provide lifesaving treatment when you need it most.",
+            "details2": "Show your heart some love with personalized care that meets your exact needs. Mayo Clinic Health System is here to help you and your family prevent heart-based complications and provide lifesaving treatment when you need it most."
+        },
+        {
+            "id": 77,
+            "img": "https://i.ibb.co/hMzGbc7/10607-ai.png",
+            "serviceName": "Dialysis",
+            "details1": "We offer life-saving treatment for those with kidney failure. Dialysis maintains safe levels of potassium, sodium and bicarbonate in your body and helps control your blood pressure.",
+            "details2": "We offer life-saving treatment for those with kidney failure. Dialysis maintains safe levels of potassium, sodium and bicarbonate in your body and helps control your blood pressure."
+        },
+        {
+            "id": 88,
+            "img": "https://i.ibb.co/XVpX4QW/numbers-table-with-glasses-magnifier.png",
+            "serviceName": "Eye Specialist(Ophthalmology)",
+            "details1": "It is a long established fact that a reader will distracted by the readableIt is a long established fact that a reader will distracted by the readable.",
+            "details2": "It is a long established fact that a reader will distracted by the readableIt is a long established fact that a reader will distracted by the readable."
+        },
+        {
+            "id": 89,
+            "img": "https://i.ibb.co/RYpLFsD/health-care-doctor-help-concept.png",
+            "serviceName": "Diabetes (Endocrinology)",
+            "details1": "Care, education and support for those with endocrine, hormonal, glandular, diabetes and metabolism disorders..",
+            "details2": "Care, education and support for those with endocrine, hormonal, glandular, diabetes and metabolism disorders.."
+        },
+        {
+            "id": 110,
+            "img": "https://i.ibb.co/JtH2VLs/close-up-doctor-vaccinating-kid.png",
+            "serviceName": "Pediatrician",
+            "details1": "Diagnosing medical issues early is crucial. Whatever your condition, we can diagnose it using a range of technologies and pathologies.",
+            "details2": "Diagnosing medical issues early is crucial. Whatever your condition, we can diagnose it using a range of technologies and pathologies."
+        }
+    ],
+    "doctors": [
+        {
+            "_id": "dr10",
+            "img": "https://i.ibb.co/CWTpbcz/girl-Study.png",
+            "drName": "Min Jun (Minjun) Hur, M.D.",
+            "expert": "Eye Specialist(Ophthalmology)",
+            "city": " La Crosse, Onalaska, Tomah"
+        },
+        {
+            "_id": "dr20",
+            "img": "https://i.ibb.co/2g5LkXM/doctor-standing-with-folder-stethoscope-1.png",
+            "drName": "Nitika Arora, M.B.B.S.",
+            "expert": "Diabetes (Endocrinology)",
+            "city": "  La Crosse"
+        },
+        {
+            "_id": "dr30",
+            "img": "https://i.ibb.co/L0VHBm1/portrait-smiling-male-doctor.png",
+            "drName": "Cecil Berlie Jr., M.D.",
+            "expert": "Pediatrician",
+            "city": "  Eau Claire"
+        },
+        {
+            "_id": "dr40",
+            "img": "https://i.ibb.co/2g5LkXM/doctor-standing-with-folder-stethoscope-1.png",
+            "drName": "Kevin Chodnicki, M.D.",
+            "expert": "Dialysis",
+            "city": " Albert Lea"
+        },
+        {
+            "_id": "dr50",
+            "img": "https://i.ibb.co/SrLLWd6/portrait-smiling-handsome-male-doctor-man.png",
+            "drName": "Steve Engman, M.D., Ph.D.",
+            "expert": "Cancer (Oncology)",
+            "city": "  Austinh"
+        },
+        {
+            "_id": "dr60",
+            "img": " https://i.ibb.co/hWH9Hvh/optical-doctor-store.png",
+            "drName": "Sasha Mansukhani, M.B.B.S.",
+            "expert": "Allergy (Asthma)",
+            "city": "  Eau Claire"
+        },
+        {
+            "_id": "dr70",
+            "img": "https://i.ibb.co/hWH9Hvh/optical-doctor-store.png",
+            "drName": "Steve Engman, M.D., Ph.D.",
+            "expert": "Jennifer Garvey, M.D, ph.D",
+            "city": "  Austinh"
+        }
+    ]
+}

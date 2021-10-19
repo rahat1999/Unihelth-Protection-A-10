@@ -1,0 +1,21 @@
+.about{
+    margin-top: 5rem;
+    background-color: #2193b0;
+    padding: 40px;
+    height: 40vh;
+    color: white;
+}
+.about-section{
+    padding: 60px 10px;
+    text-align: center;
+    transition: .8s;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+.about-section:hover{
+    transform: scale(1.05);
+}
+.about-icon{
+    font-size: 5rem;
+    text-align: center;
+    color: #2193b0;
+    }
