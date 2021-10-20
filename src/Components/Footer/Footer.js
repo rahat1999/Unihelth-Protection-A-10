@@ -1,4 +1,5 @@
 import React from 'react';
+import "./footer.css"
 
 const Footer = () => {
     return (
@@ -30,12 +31,12 @@ const Footer = () => {
 
                         <div className="col-md-3 mb-md-0 mb-3">
                             <h5 className="text-uppercase">Flow Us On</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled text-white">
 
-                                <li><a href="#!"><i className="fab fa-facebook-square"></i></a></li>
-                                <li><a href="#!"><i className="fab fa-instagram-square"></i></a></li>
-                                <li><a href="#!"><i className="fab fa-twitter-square"></i></a></li>
-                                <li><a href="#!"><i className="fab fa-youtube-square"></i></a></li>
+                                <li><a className="anchore" href="#!"><i className="fab fa-facebook-square"></i></a></li>
+                                <li><a className="anchore" href="#!"><i className="fab fa-instagram-square"></i></a></li>
+                                <li><a className="anchore" href="#!"><i className="fab fa-twitter-square"></i></a></li>
+                                <li><a className="anchore" href="#!"><i className="fab fa-youtube-square"></i></a></li>
                             </ul>
                         </div>
                     </div>

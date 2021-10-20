@@ -6,13 +6,13 @@ import image from "../../../Images/login-3d.png"
 import './login.css'
 
 const Login = () => {
-    const { user, logInWithGoogle, processLogin } = useAuth()
+    const { error, user, logInWithGoogle, processLogin } = useAuth()
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [errorMsg, setErrorMsg] = useState("")
 
-    console.log(password, email)
-    console.log(processLogin)
+    // console.log(password, email)
+    // console.log(processLogin)
 
     const handaleUserEmail = (e) => {
         setEmail(e.target.value)
@@ -26,9 +26,10 @@ const Login = () => {
             setPassword(e.target.value)
         }
     }
-    // come from useAuth and Firebase
+
     const handlelogin = (e) => {
         e.preventDefault()
+        // come from  Firebase viya to useAuth
         processLogin(email, password)
     }
 
@@ -52,6 +53,8 @@ const Login = () => {
                                     <input onBlur={handaleUserPassword} type="password" placeholder="Enter Password" name="psw" required />
                                     <span className="text-danger">{errorMsg}</span>
                                     <div className="text-center">
+                                        <span>{error}</span>
+                                        <br />
                                         <button className='w-25 me-1 mb-1 p-2 rounded' type="submit">Login</button>
                                         <br />
                                         {

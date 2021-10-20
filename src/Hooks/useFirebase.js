@@ -14,11 +14,11 @@ initializeAuthentication()
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState("")
-    console.log(error)
-    console.log(user)
+    // console.log(user)
     const auth = getAuth();
     const provider = new GoogleAuthProvider()
 
+    //google login
     const logInWithGoogle = () => {
         signInWithPopup(auth, provider)
             .then((result) => {
@@ -31,25 +31,25 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => { })
     }
-    // Signed in 
+
+    // for lohin in 
     const processLogin = (email, password) => {
         console.log(email, password)
         signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed in 
-                const user = userCredential.user;
+            .then((result) => {
+                const user = result.user;
                 console.log(user)
+                setError("")
                 // ...
             })
             .catch((error) => {
-                const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log(errorMessage)
+                setError(errorMessage)
             });
 
     }
 
-    // register
+    // for register
     const registerWithEamilAndPass = (regEmail, regPassword) => {
         console.log(regEmail, regPassword)
         createUserWithEmailAndPassword(auth, regEmail, regPassword)
@@ -60,7 +60,7 @@ const useFirebase = () => {
             })
             .catch((error) => {
                 const errorMessage = error.message;
-                setError(errorMessage, 'firebase')
+                setError(errorMessage)
             });
     }
 

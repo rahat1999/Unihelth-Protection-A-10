@@ -18,6 +18,7 @@ import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Footer from './Components/Footer/Footer';
 import Covid from './Components/Covid-19/Covid';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
+            <PrivateRoute path="/cotact">
+              <Contact></Contact>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>

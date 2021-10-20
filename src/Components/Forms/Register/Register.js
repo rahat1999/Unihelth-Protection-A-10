@@ -51,11 +51,13 @@ const Register = () => {
                                 <input type="password" onBlur={registerPassword} placeholder="Enter Password" name="psw" id="psw" required />
                                 <br />
                                 <span className='text-danger'>{errorMsg}</span>
-
+                                {
+                                    user.email ? <span className="bg-success text-white p-1 rounded ms-2"> Register successfully done</span> : ""
+                                }
                                 <hr />
                                 <p>Already have Account?<Link to="/login"> LogIN</Link></p>
                                 <span className='text-danger'>{error}</span>
-                                <button className='w-25  mb-1 p-2 rounded' type="submit">Register</button>
+                                <button className='w-25  m-1 p-2 rounded' type="submit">Register</button>
                             </div>
                         </form>
                     </Col>

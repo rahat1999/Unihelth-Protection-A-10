@@ -15,7 +15,8 @@ const Service = ({ service }) => {
                         <Card.Text>{details1.slice(0, 110)}</Card.Text>
                         <Link to={`/details/${id}`}>
                             <span>
-                                <Button className="w-50" variant="warning">Details</Button>{' '}
+                                <Button className="w-50" variant="warning">
+                                    <i className="far fa-hand-point-right"></i> Go Details</Button>{' '}
                             </span>
                         </Link>
                     </Card.Body >
