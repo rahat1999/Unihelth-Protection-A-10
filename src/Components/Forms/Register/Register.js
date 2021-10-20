@@ -39,8 +39,8 @@ const Register = () => {
                     className="g-1 p-2 rounded ">
                     <Col>
                         <form onSubmit={newRegister}>
-                            <div className="">
-                                <h1>Register</h1>
+                            <div>
+                                <h1 className="text-primary">Register</h1>
                                 <p>Please fill in this form to create an account.</p>
                                 <hr />
 
@@ -55,15 +55,17 @@ const Register = () => {
                                     user.email ? <span className="bg-success text-white p-1 rounded ms-2"> Register successfully done</span> : ""
                                 }
                                 <hr />
-                                <p>Already have Account?<Link to="/login"> LogIN</Link></p>
+                                <p>Already have Account?<Link to="/login"> LogIn</Link></p>
                                 <span className='text-danger'>{error}</span>
+                                <br />
                                 <button className='w-25  m-1 p-2 rounded' type="submit">Register</button>
                             </div>
                         </form>
                     </Col>
                     <Col>
                         <Card className="border-0 text-prinary">
-                            <b>Email:{user?.email ? user.email : ""}</b>
+                            {
+                                user?.email ? <b>Register Email: {user.email}</b> : ""}
                             <div className="imgcontainer">
                                 <Card.Img variant="top" src={img} alt="Avatar" className="avatar" />
                             </div>

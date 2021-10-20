@@ -59,14 +59,13 @@ const Contact = () => {
                             <Card.Body>
                                 <Card.Title><b>LOOKING FOR A GOOD DOCTOR?</b></Card.Title>
                                 <hr />
-                                <Row xs={1} className="g-1 mb-3">
+                                <Row xs={1} className="g-1 pb-1">
                                     <Col>
                                         <div>
                                             <p className="text-secondary">
                                                 <i className="fas fa-user-md"></i> Our seasoned and skilled team of physicians and practical nurses will leave no chance for any disease to survive!
                                             </p>
                                         </div>
-
                                         <div>
                                             <Button variant="warning">
                                                 <i className="far fa-calendar-check"></i>  Make A Appoinment</Button>

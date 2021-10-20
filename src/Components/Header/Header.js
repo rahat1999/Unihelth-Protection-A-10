@@ -23,7 +23,7 @@ const Header = () => {
                         {user?.email ? <span className='text-primary inline'>{user?.displayName}</span> : ""}
                         {
                             user?.email ? <Nav.Link onClick={LogOut}><i className="fas fa-sign-out-alt"></i>LogOut</Nav.Link>
-                                : <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                : <><Nav.Link as={Link} to="/login">Login</Nav.Link><Nav.Link as={Link} to="/register">Register</Nav.Link></>
 
                         }
 

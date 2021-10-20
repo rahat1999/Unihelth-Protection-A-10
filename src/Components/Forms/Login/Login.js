@@ -63,7 +63,7 @@ const Login = () => {
                                     </div>
                                 </div>
                             </form>
-                            <p className="text-center">------------oR----------</p>
+                            <p className="text-center">-----------or----------</p>
                             <div className="container text-center" style={{ backgroundColor: "#f1f1f1" }}>
                                 <button
                                     onClick={logInWithGoogle}
@@ -78,9 +78,9 @@ const Login = () => {
                                     <Card.Img variant="top" src={image} alt="Avatar" className="avatar" />
                                 </div>
                                 <Card.ImgOverlay>
-                                    <Card.Title>User Email:
-                                        {user.email && user.email}
-                                    </Card.Title>
+                                    {user.email && <Card.Title className="text-danger">User Email: {user.email}</Card.Title>}
+
+
 
                                 </Card.ImgOverlay>
                             </Card>

@@ -1,6 +1,14 @@
 .imgContainer{
     height: 90vh;
 }
+.covidinfo h4{
+    color: white;
+    text-shadow: 4px 4px 5px black;
+}
+.covidinfo h2{
+    color: #08b0f3;
+    text-shadow: 5px 6px 5px black;
+}
 @media only screen and (max-width: 600px) {
     .imgContainer{
         height: 40vh;
