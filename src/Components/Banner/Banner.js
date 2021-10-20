@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import img1 from "../../Images/banner/banner111.png";
 import img2 from "../../Images/banner/banner002.jpg";
 import img3 from "../../Images/banner/banner333.jpg";
@@ -7,15 +7,15 @@ import "./banner.css"
 
 const Banner = () => {
     return (
-        <Container>
+        <div>
 
-
-            <Carousel className='mt-5'>
+            <br />
+            <Carousel className='mt-4'>
                 <Carousel.Item>
                     <img
 
                         className="d-block w-100 imgContainer"
-                        src={img1}
+                        src={img2}
                         alt="First slide"
                     />
                     <Carousel.Caption className='covidinfo'>
@@ -26,7 +26,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 imgContainer"
-                        src={img2}
+                        src={img3}
                         alt="Second slide"
                     />
 
@@ -39,7 +39,7 @@ const Banner = () => {
                     <img
 
                         className="d-block w-100 imgContainer"
-                        src={img3}
+                        src={img1}
                         alt="Third slide"
                     />
                     <Carousel.Caption className='covidinfo'>
@@ -49,7 +49,7 @@ const Banner = () => {
                 </Carousel.Item>
             </Carousel>
 
-        </Container>
+        </div>
     );
 };
 

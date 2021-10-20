@@ -61,11 +61,7 @@ const About = () => {
                         </Card>
                     </Col>
 
-
-
                 </Row>
-
-
             </Container>
         </>
     )
