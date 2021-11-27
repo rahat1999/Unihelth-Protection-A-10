@@ -5,11 +5,12 @@
 ## About
 * This project made by React.js | React Route, Firbase & Bootstrap
 ## UniHealth Protection hospital details
-* It’s a website about Hospital Services with modern Web Technology..
+* It’s a website about Hospital Services with modern Web Technology.
 * In the website there is a services button, if users click there users will see the services & Treatments sheets.
 * Also has a Doctors section ,users can see Doctors profile.
 * Users will get covide details & teatment tips.
 * This website made by React Js, Bootstrap-5, Firebase Authentication and REST.API.
+* Users can see the Service details after clicking the Go Details button, to see the Service details make sure users are signed in.
 
 ## Discription
 * A hospital is a health-care facility that provides specialised medical and nursing care as well as medical supplies to patients. The most well-known form of the hospital is the general hospital, which usually carries an emergency department to handle urgent health issues such as fire and accident victims, as well as medical emergencies.
